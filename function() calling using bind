@@ -1,0 +1,39 @@
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet,Button,Text, View } from 'react-native';
+
+class App extends React.Component
+{
+
+  state={
+    name:"cool",
+    status:"Developer"
+  }
+
+  Developer(){
+    this.setState({
+      name:"Scientist"
+    })
+    console.log("updated",this.state)
+  }
+  render(){
+  return (
+    <View style={styles.container}>
+      <Text>{this.state.name}</Text>
+      <Text>{this.state.status}</Text>
+      <Button title="click" onPress={this.Developer.bind(this)} />
+    </View>
+  );
+  }
+}
+
+export default App;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
