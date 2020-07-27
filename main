@@ -8,3 +8,11 @@
 
 4.functional first letter must be capital.
 
+5.pros is used to dynamically change values from outside.
+
+6.return can only return single value that's why we use <view> </view> to print more names.
+
+7.state are dynamic properties 
+
+8.setState is used to set state.
+
