@@ -1,4 +1,10 @@
+0.enable babel jsx.
+
 1.jsx is advanced html(like we can use javascript inside it by js in { } )
+
 2.babel.config.js=is used to convert jsx to js
+
 3.there are two types of component functional and class component (render() functionn is only available in class component)
+
+4.functional first letter must be capital.
 
